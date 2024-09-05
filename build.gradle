@@ -53,6 +53,7 @@ task checkFilesExist {
             }
         } else {
             println "${directory} does not exist or is not a directory."
+            println "dd"
         }
     }
 }
